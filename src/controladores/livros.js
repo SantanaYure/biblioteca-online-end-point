@@ -62,7 +62,7 @@ const atualizarLivro = (req, res) => {
 
 }
 
-//Excluir livro
+//Excluir livro pelo ID
 const excluirLivro = (req, res) => {
   const { id } = req.params;
 
